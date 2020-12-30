@@ -1,0 +1,63 @@
+.list{
+    color: #fff;
+    width: 90%;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+
+.list p span{
+    position: absolute;
+    right: 2%;
+    bottom: 15%;
+    cursor: pointer;
+}
+
+.faicons{
+    margin: 0px 5px;
+    font-size: 15px;
+}
+
+.list p input{
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+}
+
+.list p input:focus{
+    background-color: transparent;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-dangerh{
+    font-size: 14px;
+    float: left;
+    border-radius: 3px;
+    background-color: red;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.btn-warning{
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: yellow;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.btn-success{
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: green;
+    color: #fff;
+    border: 1px solid transparent;
+}
